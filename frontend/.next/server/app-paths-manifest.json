@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/runs/page": "app/runs/page.js",
+  "/runs/[runId]/page": "app/runs/[runId]/page.js",
+  "/new/page": "app/new/page.js"
+}

@@ -1,0 +1,210 @@
+{
+  "DEMO-SRS-119": [
+    {
+      "test_case_id": "TC-002",
+      "title": "Manage Custom Attributes for Requirements",
+      "type": "Functional",
+      "priority": "Medium"
+    },
+    {
+      "test_case_id": "TC-021",
+      "title": "Change Custom Attribute Type with Incompatible Values",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-132": [
+    {
+      "test_case_id": "TC-005",
+      "title": "Comment on Requirement",
+      "type": "Functional",
+      "priority": "Medium"
+    },
+    {
+      "test_case_id": "TC-016",
+      "title": "Comment on Locked Requirement",
+      "type": "Negative",
+      "priority": "High"
+    },
+    {
+      "test_case_id": "TC-024",
+      "title": "Add Comment Without Text",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-72": [
+    {
+      "test_case_id": "TC-008",
+      "title": "Import Requirements from MS Word",
+      "type": "Functional",
+      "priority": "High"
+    },
+    {
+      "test_case_id": "TC-013",
+      "title": "Attempt to Import Corrupted MS Word File",
+      "type": "Negative",
+      "priority": "High"
+    },
+    {
+      "test_case_id": "TC-019",
+      "title": "Import Unsupported File Format",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-163": [
+    {
+      "test_case_id": "TC-009",
+      "title": "Export Requirements to PDF",
+      "type": "Functional",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-164": [
+    {
+      "test_case_id": "TC-012",
+      "title": "Print Requirements Specifications",
+      "type": "Functional",
+      "priority": "Medium"
+    },
+    {
+      "test_case_id": "TC-032",
+      "title": "Print Displayed Requirements",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-76": [
+    {
+      "test_case_id": "TC-014",
+      "title": "Attempt to Export to Exceeding File Size Limit",
+      "type": "Negative",
+      "priority": "High"
+    },
+    {
+      "test_case_id": "TC-020",
+      "title": "Export Document with No Content",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-54": [
+    {
+      "test_case_id": "TC-018",
+      "title": "Create Document with Unsaved Changes",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-106": [
+    {
+      "test_case_id": "TC-022",
+      "title": "Delete Requirement Referenced by Other Requirements",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-124": [
+    {
+      "test_case_id": "TC-023",
+      "title": "Attach File Exceeding Size Limit",
+      "type": "Negative",
+      "priority": "High"
+    },
+    {
+      "test_case_id": "TC-027",
+      "title": "Handle Unsupported File Types During Attachment",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-135": [
+    {
+      "test_case_id": "TC-025",
+      "title": "Remove Link Type with Existing Links",
+      "type": "Negative",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-144": [
+    {
+      "test_case_id": "TC-028",
+      "title": "Auto Save Functionality",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-160": [
+    {
+      "test_case_id": "TC-029",
+      "title": "Clear Persisted Data on Document Closure",
+      "type": "Functional",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-101": [
+    {
+      "test_case_id": "TC-030",
+      "title": "Record Changes to Requirements",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-159": [
+    {
+      "test_case_id": "TC-031",
+      "title": "Display Change History for Requirements",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-63": [
+    {
+      "test_case_id": "TC-033",
+      "title": "Create Document from Template",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-56": [
+    {
+      "test_case_id": "TC-034",
+      "title": "Open Existing Document",
+      "type": "Functional",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-59": [
+    {
+      "test_case_id": "TC-035",
+      "title": "Save Changes to Document",
+      "type": "Functional",
+      "priority": "High"
+    }
+  ],
+  "DEMO-SRS-61": [
+    {
+      "test_case_id": "TC-036",
+      "title": "Create Document Template",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-80": [
+    {
+      "test_case_id": "TC-037",
+      "title": "Display Table of Contents",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ],
+  "DEMO-SRS-83": [
+    {
+      "test_case_id": "TC-038",
+      "title": "Display Requirements Table",
+      "type": "Functional",
+      "priority": "Medium"
+    }
+  ]
+}

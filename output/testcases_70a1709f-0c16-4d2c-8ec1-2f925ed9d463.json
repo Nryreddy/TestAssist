@@ -1,0 +1,651 @@
+[
+  {
+    "id": "TC-001",
+    "title": "Capture Requirements Specification",
+    "requirement_ids": [],
+    "preconditions": [
+      "User is logged into the application."
+    ],
+    "steps": [
+      "Navigate to the requirements capture section.",
+      "Enter valid requirement details.",
+      "Click on 'Save'."
+    ],
+    "expected_result": "The requirement is saved successfully and displayed in the requirements list.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-002",
+    "title": "Manage Custom Attributes for Requirements",
+    "requirement_ids": [
+      "DEMO-SRS-119"
+    ],
+    "preconditions": [
+      "User has captured at least one requirement."
+    ],
+    "steps": [
+      "Select a requirement from the list.",
+      "Add a custom attribute with valid data.",
+      "Click 'Save'."
+    ],
+    "expected_result": "The custom attribute is added and displayed under the selected requirement.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-003",
+    "title": "Setup Requirements Traceability",
+    "requirement_ids": [],
+    "preconditions": [
+      "User is logged into the application."
+    ],
+    "steps": [
+      "Navigate to the traceability setup section.",
+      "Define a new traceability link.",
+      "Save the link."
+    ],
+    "expected_result": "The traceability link is created and displayed in the traceability matrix.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-004",
+    "title": "Browse Requirements Traceability Matrix",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has set up at least one traceability link."
+    ],
+    "steps": [
+      "Navigate to the traceability matrix section.",
+      "View the existing traceability links."
+    ],
+    "expected_result": "The traceability matrix is displayed with all defined links.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-005",
+    "title": "Comment on Requirement",
+    "requirement_ids": [
+      "DEMO-SRS-132"
+    ],
+    "preconditions": [
+      "User has access to a requirement."
+    ],
+    "steps": [
+      "Select a requirement.",
+      "Add a comment in the comment section.",
+      "Click 'Submit'."
+    ],
+    "expected_result": "The comment is added and displayed under the requirement.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-006",
+    "title": "Filter Requirements by Criteria",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has multiple requirements saved."
+    ],
+    "steps": [
+      "Navigate to the filtering section.",
+      "Select a filter criterion.",
+      "Click 'Apply'."
+    ],
+    "expected_result": "Only requirements matching the filter criteria are displayed.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-007",
+    "title": "Search for Specific Requirement",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has multiple requirements saved."
+    ],
+    "steps": [
+      "Enter a keyword in the search bar.",
+      "Click 'Search'."
+    ],
+    "expected_result": "The search results display requirements containing the keyword.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-008",
+    "title": "Import Requirements from MS Word",
+    "requirement_ids": [
+      "DEMO-SRS-72"
+    ],
+    "preconditions": [
+      "User has a valid MS Word file."
+    ],
+    "steps": [
+      "Navigate to the import section.",
+      "Select the MS Word file.",
+      "Click 'Import'."
+    ],
+    "expected_result": "Requirements are imported successfully and displayed in the list.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-009",
+    "title": "Export Requirements to PDF",
+    "requirement_ids": [
+      "DEMO-SRS-163"
+    ],
+    "preconditions": [
+      "User has requirements to export."
+    ],
+    "steps": [
+      "Navigate to the export section.",
+      "Select 'PDF' as the export format.",
+      "Click 'Export'."
+    ],
+    "expected_result": "Requirements are exported to a PDF file successfully.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-010",
+    "title": "Analyze Requirements Coverage",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has captured multiple requirements."
+    ],
+    "steps": [
+      "Navigate to the coverage analysis section.",
+      "Click on 'Analyze'."
+    ],
+    "expected_result": "Coverage analysis report is generated and displayed.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-011",
+    "title": "Impact Analysis of Changes",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has made changes to a requirement."
+    ],
+    "steps": [
+      "Navigate to the impact analysis section.",
+      "Select the modified requirement.",
+      "Click 'Analyze'."
+    ],
+    "expected_result": "Impact analysis report is generated showing affected requirements.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-012",
+    "title": "Print Requirements Specifications",
+    "requirement_ids": [
+      "DEMO-SRS-164"
+    ],
+    "preconditions": [
+      "User has requirements to print."
+    ],
+    "steps": [
+      "Navigate to the print section.",
+      "Select the requirements to print.",
+      "Click 'Print'."
+    ],
+    "expected_result": "Requirements specifications are printed successfully.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-013",
+    "title": "Attempt to Import Corrupted MS Word File",
+    "requirement_ids": [
+      "DEMO-SRS-72"
+    ],
+    "preconditions": [],
+    "steps": [
+      "Navigate to the import section.",
+      "Select a corrupted MS Word file.",
+      "Click 'Import'."
+    ],
+    "expected_result": "An error message is displayed indicating the file is corrupted.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-014",
+    "title": "Attempt to Export to Exceeding File Size Limit",
+    "requirement_ids": [
+      "DEMO-SRS-76"
+    ],
+    "preconditions": [
+      "User has a document that exceeds the size limit."
+    ],
+    "steps": [
+      "Navigate to the export section.",
+      "Select 'PDF' as the export format.",
+      "Click 'Export'."
+    ],
+    "expected_result": "An error message is displayed indicating the file size exceeds the limit.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-015",
+    "title": "Filter/Search with No Matching Criteria",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has multiple requirements saved."
+    ],
+    "steps": [
+      "Navigate to the filtering section.",
+      "Select a filter criterion that does not match any requirement.",
+      "Click 'Apply'."
+    ],
+    "expected_result": "No requirements are displayed.",
+    "priority": "Medium",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-016",
+    "title": "Comment on Locked Requirement",
+    "requirement_ids": [
+      "DEMO-SRS-132"
+    ],
+    "preconditions": [
+      "User has access to a locked requirement."
+    ],
+    "steps": [
+      "Select the locked requirement.",
+      "Add a comment in the comment section.",
+      "Click 'Submit'."
+    ],
+    "expected_result": "An error message is displayed indicating the requirement is locked.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-017",
+    "title": "Simultaneous Edits by Multiple Users",
+    "requirement_ids": [],
+    "preconditions": [
+      "Multiple users are logged in and editing the same requirement."
+    ],
+    "steps": [
+      "User A edits a requirement.",
+      "User B attempts to edit the same requirement simultaneously."
+    ],
+    "expected_result": "User B receives a notification that the requirement is being edited by another user.",
+    "priority": "High",
+    "type": "Edge"
+  },
+  {
+    "id": "TC-018",
+    "title": "Create Document with Unsaved Changes",
+    "requirement_ids": [
+      "DEMO-SRS-54"
+    ],
+    "preconditions": [
+      "User has unsaved changes in an open document."
+    ],
+    "steps": [
+      "Attempt to create a new document."
+    ],
+    "expected_result": "A prompt appears asking the user to save changes before creating a new document.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-019",
+    "title": "Import Unsupported File Format",
+    "requirement_ids": [
+      "DEMO-SRS-72"
+    ],
+    "preconditions": [],
+    "steps": [
+      "Navigate to the import section.",
+      "Select an unsupported file format.",
+      "Click 'Import'."
+    ],
+    "expected_result": "An error message is displayed indicating the file format is not supported.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-020",
+    "title": "Export Document with No Content",
+    "requirement_ids": [
+      "DEMO-SRS-76"
+    ],
+    "preconditions": [
+      "User has a document with no content."
+    ],
+    "steps": [
+      "Navigate to the export section.",
+      "Select 'PDF' as the export format.",
+      "Click 'Export'."
+    ],
+    "expected_result": "An error message is displayed indicating there is no content to export.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-021",
+    "title": "Change Custom Attribute Type with Incompatible Values",
+    "requirement_ids": [
+      "DEMO-SRS-119"
+    ],
+    "preconditions": [
+      "User has a custom attribute with a specific type."
+    ],
+    "steps": [
+      "Attempt to change the type of the custom attribute to an incompatible type."
+    ],
+    "expected_result": "An error message is displayed indicating the change is not allowed.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-022",
+    "title": "Delete Requirement Referenced by Other Requirements",
+    "requirement_ids": [
+      "DEMO-SRS-106"
+    ],
+    "preconditions": [
+      "User has a requirement that is referenced by another requirement."
+    ],
+    "steps": [
+      "Select the referenced requirement.",
+      "Click 'Delete'."
+    ],
+    "expected_result": "An error message is displayed indicating the requirement cannot be deleted.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-023",
+    "title": "Attach File Exceeding Size Limit",
+    "requirement_ids": [
+      "DEMO-SRS-124"
+    ],
+    "preconditions": [],
+    "steps": [
+      "Navigate to the attachment section.",
+      "Select a file that exceeds the size limit.",
+      "Click 'Attach'."
+    ],
+    "expected_result": "An error message is displayed indicating the file exceeds the size limit.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-024",
+    "title": "Add Comment Without Text",
+    "requirement_ids": [
+      "DEMO-SRS-132"
+    ],
+    "preconditions": [
+      "User has access to a requirement."
+    ],
+    "steps": [
+      "Select a requirement.",
+      "Leave the comment field empty.",
+      "Click 'Submit'."
+    ],
+    "expected_result": "An error message is displayed indicating the comment cannot be empty.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-025",
+    "title": "Remove Link Type with Existing Links",
+    "requirement_ids": [
+      "DEMO-SRS-135"
+    ],
+    "preconditions": [
+      "User has a link type that has existing links."
+    ],
+    "steps": [
+      "Select the link type.",
+      "Click 'Remove'."
+    ],
+    "expected_result": "An error message is displayed indicating the link type cannot be removed.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-026",
+    "title": "Search with No Matching Results",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has multiple requirements saved."
+    ],
+    "steps": [
+      "Enter a keyword that does not match any requirement.",
+      "Click 'Search'."
+    ],
+    "expected_result": "No results are displayed.",
+    "priority": "Medium",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-027",
+    "title": "Handle Unsupported File Types During Attachment",
+    "requirement_ids": [
+      "DEMO-SRS-124"
+    ],
+    "preconditions": [],
+    "steps": [
+      "Navigate to the attachment section.",
+      "Select an unsupported file type.",
+      "Click 'Attach'."
+    ],
+    "expected_result": "An error message is displayed indicating the file type is not supported.",
+    "priority": "High",
+    "type": "Negative"
+  },
+  {
+    "id": "TC-028",
+    "title": "Auto Save Functionality",
+    "requirement_ids": [
+      "DEMO-SRS-144"
+    ],
+    "preconditions": [
+      "User has made changes to a document."
+    ],
+    "steps": [
+      "Make changes to the document.",
+      "Wait for the auto-save interval."
+    ],
+    "expected_result": "The changes are automatically saved without user intervention.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-029",
+    "title": "Clear Persisted Data on Document Closure",
+    "requirement_ids": [
+      "DEMO-SRS-160"
+    ],
+    "preconditions": [
+      "User has unsaved changes in an open document."
+    ],
+    "steps": [
+      "Close the document."
+    ],
+    "expected_result": "All unsaved changes are cleared and not persisted.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-030",
+    "title": "Record Changes to Requirements",
+    "requirement_ids": [
+      "DEMO-SRS-101"
+    ],
+    "preconditions": [
+      "User has modified a requirement."
+    ],
+    "steps": [
+      "Modify a requirement.",
+      "Save the changes."
+    ],
+    "expected_result": "The change is recorded with the author and timestamp.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-031",
+    "title": "Display Change History for Requirements",
+    "requirement_ids": [
+      "DEMO-SRS-159"
+    ],
+    "preconditions": [
+      "User has modified a requirement."
+    ],
+    "steps": [
+      "Select the modified requirement.",
+      "Click on 'View Change History'."
+    ],
+    "expected_result": "The change history is displayed with all modifications listed.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-032",
+    "title": "Print Displayed Requirements",
+    "requirement_ids": [
+      "DEMO-SRS-164"
+    ],
+    "preconditions": [
+      "User has requirements displayed on the screen."
+    ],
+    "steps": [
+      "Navigate to the print section.",
+      "Click 'Print'."
+    ],
+    "expected_result": "Displayed requirements are printed successfully.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-033",
+    "title": "Create Document from Template",
+    "requirement_ids": [
+      "DEMO-SRS-63"
+    ],
+    "preconditions": [
+      "User has a document template saved."
+    ],
+    "steps": [
+      "Navigate to the document creation section.",
+      "Select the template.",
+      "Click 'Create'."
+    ],
+    "expected_result": "A new document is created based on the selected template.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-034",
+    "title": "Open Existing Document",
+    "requirement_ids": [
+      "DEMO-SRS-56"
+    ],
+    "preconditions": [
+      "User has at least one document saved."
+    ],
+    "steps": [
+      "Navigate to the open file section.",
+      "Select an existing document.",
+      "Click 'Open'."
+    ],
+    "expected_result": "The selected document opens successfully.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-035",
+    "title": "Save Changes to Document",
+    "requirement_ids": [
+      "DEMO-SRS-59"
+    ],
+    "preconditions": [
+      "User has made changes to an open document."
+    ],
+    "steps": [
+      "Click 'Save'."
+    ],
+    "expected_result": "The changes are saved successfully.",
+    "priority": "High",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-036",
+    "title": "Create Document Template",
+    "requirement_ids": [
+      "DEMO-SRS-61"
+    ],
+    "preconditions": [
+      "User has a document open."
+    ],
+    "steps": [
+      "Navigate to the template section.",
+      "Click 'Create Template'."
+    ],
+    "expected_result": "A new document template is created successfully.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-037",
+    "title": "Display Table of Contents",
+    "requirement_ids": [
+      "DEMO-SRS-80"
+    ],
+    "preconditions": [
+      "User has a document with sections."
+    ],
+    "steps": [
+      "Navigate to the document view section.",
+      "Click on 'Show Table of Contents'."
+    ],
+    "expected_result": "The table of contents is displayed with links to sections.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-038",
+    "title": "Display Requirements Table",
+    "requirement_ids": [
+      "DEMO-SRS-83"
+    ],
+    "preconditions": [
+      "User has captured multiple requirements."
+    ],
+    "steps": [
+      "Navigate to the requirements view section.",
+      "Click on 'Display Requirements Table'."
+    ],
+    "expected_result": "The requirements are displayed in a sortable table format.",
+    "priority": "Medium",
+    "type": "Functional"
+  },
+  {
+    "id": "TC-039",
+    "title": "Show Detailed Information for Selected Requirement",
+    "requirement_ids": [],
+    "preconditions": [
+      "User has requirements displayed."
+    ],
+    "steps": [
+      "Select a requirement from the table.",
+      "Click on 'View Details'."
+    ],
+    "expected_result": "Detailed information for the selected requirement is displayed.",
+    "priority": "Medium",
+    "type": "Functional"
+  }
+]
